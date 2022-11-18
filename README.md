@@ -46,9 +46,9 @@ while True:
             print(num1, "/", num2, "=", divide(num1, num2))
         
         # check if user wants another calculation
-        # break the while loop if answer is no
+        # break the while loop if answer is yes
         next_calculation = input("Let's do next calculation? (yes/no): ")
-        if next_calculation == "no":
+        if next_calculation == "yes":
           break
     
     else:
